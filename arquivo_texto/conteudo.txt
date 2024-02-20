@@ -1,0 +1,29 @@
+--> O que vai ter no site portifolio: 
+    1 Sobre mim
+    2 Meus Projetos
+    3 Habilidades
+    4 contato
+
+--> SOBRE MIM: 
+Olá, meu nome é Ruan Pedro, tenho 18 anos e sou estudante do 2 período de ADS(Analise desenvolvimento de sistema). Meu foco é desenvolvimento Front-end, busco a minha primeira vaga no mercado de trabalho. Se liga em alguns dos meus projetos abaixo.
+
+--> MEUS PROJETOS: 
+1 - Tela de cadastro
+2 - portifolioEx
+3 - barbearia
+4 - loja de bolsa
+5 - API CEP
+
+--> HABILIDADES: 
+. hmtl
+. css
+. javascript
+. React
+. sql
+. node.js 
+. bootstrap
+
+--> CONTATO:
+. Linkdin
+. Email
+

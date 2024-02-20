@@ -1,0 +1,78 @@
+@media (min-width: 461px) and (max-width: 768px) {
+    header h1 {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 40px; /* Corrigido aqui */
+    }
+
+    nav {
+        margin-left: 270px;
+    }
+
+    .container {
+        color: white;
+        display: flex; /* Removida a repetição */
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .container img {
+        margin-left: 180px;
+    }
+
+    .text {
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+
+    footer {
+        height: 450px;
+        width: 720px;
+    }
+
+    footer img {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    #secao02 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 720px;
+    }
+
+    .card {
+        width: 80px; /* Corrigido aqui */
+        padding-bottom: 40px;
+    }
+
+    #secao01 {
+        height: 1000px;
+        width: 720px;
+    }
+
+    #secao04 {
+        height: 1500px;
+        width: 720px;
+    }
+
+    .superior,
+    .inferior {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    body {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
