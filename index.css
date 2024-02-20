@@ -1,0 +1,300 @@
+* {
+    font-family: "Share Tech", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Correção aqui */
+}
+
+
+body { 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url('img/fundo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+
+header h1{
+    color:#5061FA ;
+    transition: 0.5;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.text {
+    flex: 1;
+}
+
+.image {
+    flex-shrink: 0;
+    margin-right: 180px; /* Espaço entre o texto e a imagem */
+}
+
+.container h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.container h2 {
+    color: #301AF5;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.container img {
+    border-radius: 20px;
+}
+
+#secao01{
+    margin-top: 300px;
+    width: 2000px;
+    height: 700px;
+    background-color:#5061fa;
+}
+
+#secao01 h1{
+    font-size: 60px;
+}
+
+#secao01 p{
+    font-size: 20px;
+}
+
+
+#secao02{
+    width: 1500px;
+    height: 700px;
+    background-color: #301AF5;
+}
+#secao02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set a specific height for the section to center vertically */
+}
+
+.card {
+    margin: 0 50px; /* Optional: Add some space between cards */
+    height: 100vh;
+}
+
+.card{
+    width: 12rem; 
+    height: 300px;
+}
+
+
+aside {
+    width: 1500px;
+    height: 800px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.835));
+    padding: 20px;
+}
+
+aside h1 {
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    font-size: 45px;
+}
+
+.superior, .inferior {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projeto {
+    text-align: center;
+}
+
+.projeto img {
+    width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.projeto button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.projeto button:hover {
+    background-color: #5061fa;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(247, 213, 255));
+    padding: 20px 0;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    flex: 1;
+}
+
+.footer-image {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.footer-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer img{
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+footer a {
+    text-decoration: none; /* Remove a decoração de texto, incluindo sublinhado, apenas nos links dentro do elemento com a classe "footer" */
+}
+
+footer h1{
+    font-size: 50px;
+    color: #301AF5;
+}
+
+footer h2{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+@media (min-width: 461px) and (max-width: 768px) {
+    header h1 {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 40px; /* Corrigido aqui */
+    }
+
+    nav {
+        margin-left: 270px;
+    }
+
+    .container {
+        color: white;
+        display: flex; /* Removida a repetição */
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .container img {
+        margin-left: 180px;
+    }
+
+    .text {
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+
+    footer {
+        height: 450px;
+        width: 720px;
+    }
+
+    footer img {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    #secao02 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 720px;
+    }
+
+    .card {
+        width: 80px; /* Corrigido aqui */
+        padding-bottom: 40px;
+    }
+
+    #secao01 {
+        height: 1000px;
+        width: 720px;
+    }
+
+    #secao04 {
+        height: 1500px;
+        width: 720px;
+    }
+
+    .superior,
+    .inferior {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    body {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+
+
